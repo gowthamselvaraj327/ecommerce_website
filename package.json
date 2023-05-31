@@ -1,0 +1,40 @@
+{
+  "name": "sat",
+  "version": "1.0.0",
+  "description": "React website for Shri Anjaneya Traders",
+  "main": "Server.js",
+  "scripts": {
+    "start": "nodemon Backend/Server.js",
+    "dev": "set NODE_ENV=development&&nodemon Backend/Server.js",
+    "prod": "set NODE_ENV=production&&nodemon Backend/Server.js",
+    "seeder": "node Backend/utils/seeder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anjaneya\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C[anjaneya",
+    "anjaneya",
+    "traders",
+    "machine",
+    "shop",
+    "jayson]"
+  ],
+  "author": "Gowtham Selvaraj",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "stripe": "^11.17.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
